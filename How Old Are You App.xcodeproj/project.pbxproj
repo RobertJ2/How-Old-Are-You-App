@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29BBD3D11F36B7BC007479EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBD3D01F36B7BC007479EB /* AppDelegate.swift */; };
+		29BBD3D31F36B7BC007479EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBD3D21F36B7BC007479EB /* ViewController.swift */; };
+		29BBD3D61F36B7BC007479EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BBD3D41F36B7BC007479EB /* Main.storyboard */; };
+		29BBD3D81F36B7BC007479EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29BBD3D71F36B7BC007479EB /* Assets.xcassets */; };
+		29BBD3DB1F36B7BC007479EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BBD3D91F36B7BC007479EB /* LaunchScreen.storyboard */; };
+		29BBD3E61F36B7BC007479EB /* How_Old_Are_You_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBD3E51F36B7BC007479EB /* How_Old_Are_You_AppTests.swift */; };
+		29BBD3F11F36B7BC007479EB /* How_Old_Are_You_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBD3F01F36B7BC007479EB /* How_Old_Are_You_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29BBD3E21F36B7BC007479EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29BBD3C51F36B7BC007479EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29BBD3CC1F36B7BC007479EB;
+			remoteInfo = "How Old Are You App";
+		};
+		29BBD3ED1F36B7BC007479EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29BBD3C51F36B7BC007479EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29BBD3CC1F36B7BC007479EB;
+			remoteInfo = "How Old Are You App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29BBD3CD1F36B7BC007479EB /* How Old Are You App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How Old Are You App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29BBD3D01F36B7BC007479EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29BBD3D21F36B7BC007479EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29BBD3D51F36B7BC007479EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29BBD3D71F36B7BC007479EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29BBD3DA1F36B7BC007479EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29BBD3DC1F36B7BC007479EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BBD3E11F36B7BC007479EB /* How Old Are You AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How Old Are You AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29BBD3E51F36B7BC007479EB /* How_Old_Are_You_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_Old_Are_You_AppTests.swift; sourceTree = "<group>"; };
+		29BBD3E71F36B7BC007479EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BBD3EC1F36B7BC007479EB /* How Old Are You AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How Old Are You AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29BBD3F01F36B7BC007479EB /* How_Old_Are_You_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_Old_Are_You_AppUITests.swift; sourceTree = "<group>"; };
+		29BBD3F21F36B7BC007479EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29BBD3CA1F36B7BC007479EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BBD3DE1F36B7BC007479EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BBD3E91F36B7BC007479EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29BBD3C41F36B7BC007479EB = {
+			isa = PBXGroup;
+			children = (
+				29BBD3CF1F36B7BC007479EB /* How Old Are You App */,
+				29BBD3E41F36B7BC007479EB /* How Old Are You AppTests */,
+				29BBD3EF1F36B7BC007479EB /* How Old Are You AppUITests */,
+				29BBD3CE1F36B7BC007479EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29BBD3CE1F36B7BC007479EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29BBD3CD1F36B7BC007479EB /* How Old Are You App.app */,
+				29BBD3E11F36B7BC007479EB /* How Old Are You AppTests.xctest */,
+				29BBD3EC1F36B7BC007479EB /* How Old Are You AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29BBD3CF1F36B7BC007479EB /* How Old Are You App */ = {
+			isa = PBXGroup;
+			children = (
+				29BBD3D01F36B7BC007479EB /* AppDelegate.swift */,
+				29BBD3D21F36B7BC007479EB /* ViewController.swift */,
+				29BBD3D41F36B7BC007479EB /* Main.storyboard */,
+				29BBD3D71F36B7BC007479EB /* Assets.xcassets */,
+				29BBD3D91F36B7BC007479EB /* LaunchScreen.storyboard */,
+				29BBD3DC1F36B7BC007479EB /* Info.plist */,
+			);
+			path = "How Old Are You App";
+			sourceTree = "<group>";
+		};
+		29BBD3E41F36B7BC007479EB /* How Old Are You AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				29BBD3E51F36B7BC007479EB /* How_Old_Are_You_AppTests.swift */,
+				29BBD3E71F36B7BC007479EB /* Info.plist */,
+			);
+			path = "How Old Are You AppTests";
+			sourceTree = "<group>";
+		};
+		29BBD3EF1F36B7BC007479EB /* How Old Are You AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29BBD3F01F36B7BC007479EB /* How_Old_Are_You_AppUITests.swift */,
+				29BBD3F21F36B7BC007479EB /* Info.plist */,
+			);
+			path = "How Old Are You AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29BBD3CC1F36B7BC007479EB /* How Old Are You App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29BBD3F51F36B7BC007479EB /* Build configuration list for PBXNativeTarget "How Old Are You App" */;
+			buildPhases = (
+				29BBD3C91F36B7BC007479EB /* Sources */,
+				29BBD3CA1F36B7BC007479EB /* Frameworks */,
+				29BBD3CB1F36B7BC007479EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "How Old Are You App";
+			productName = "How Old Are You App";
+			productReference = 29BBD3CD1F36B7BC007479EB /* How Old Are You App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29BBD3E01F36B7BC007479EB /* How Old Are You AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29BBD3F81F36B7BC007479EB /* Build configuration list for PBXNativeTarget "How Old Are You AppTests" */;
+			buildPhases = (
+				29BBD3DD1F36B7BC007479EB /* Sources */,
+				29BBD3DE1F36B7BC007479EB /* Frameworks */,
+				29BBD3DF1F36B7BC007479EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29BBD3E31F36B7BC007479EB /* PBXTargetDependency */,
+			);
+			name = "How Old Are You AppTests";
+			productName = "How Old Are You AppTests";
+			productReference = 29BBD3E11F36B7BC007479EB /* How Old Are You AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29BBD3EB1F36B7BC007479EB /* How Old Are You AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29BBD3FB1F36B7BC007479EB /* Build configuration list for PBXNativeTarget "How Old Are You AppUITests" */;
+			buildPhases = (
+				29BBD3E81F36B7BC007479EB /* Sources */,
+				29BBD3E91F36B7BC007479EB /* Frameworks */,
+				29BBD3EA1F36B7BC007479EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29BBD3EE1F36B7BC007479EB /* PBXTargetDependency */,
+			);
+			name = "How Old Are You AppUITests";
+			productName = "How Old Are You AppUITests";
+			productReference = 29BBD3EC1F36B7BC007479EB /* How Old Are You AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29BBD3C51F36B7BC007479EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Robert Jackson Jr";
+				TargetAttributes = {
+					29BBD3CC1F36B7BC007479EB = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					29BBD3E01F36B7BC007479EB = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 29BBD3CC1F36B7BC007479EB;
+					};
+					29BBD3EB1F36B7BC007479EB = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 29BBD3CC1F36B7BC007479EB;
+					};
+				};
+			};
+			buildConfigurationList = 29BBD3C81F36B7BC007479EB /* Build configuration list for PBXProject "How Old Are You App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29BBD3C41F36B7BC007479EB;
+			productRefGroup = 29BBD3CE1F36B7BC007479EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29BBD3CC1F36B7BC007479EB /* How Old Are You App */,
+				29BBD3E01F36B7BC007479EB /* How Old Are You AppTests */,
+				29BBD3EB1F36B7BC007479EB /* How Old Are You AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29BBD3CB1F36B7BC007479EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BBD3DB1F36B7BC007479EB /* LaunchScreen.storyboard in Resources */,
+				29BBD3D81F36B7BC007479EB /* Assets.xcassets in Resources */,
+				29BBD3D61F36B7BC007479EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BBD3DF1F36B7BC007479EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BBD3EA1F36B7BC007479EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29BBD3C91F36B7BC007479EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BBD3D31F36B7BC007479EB /* ViewController.swift in Sources */,
+				29BBD3D11F36B7BC007479EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BBD3DD1F36B7BC007479EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BBD3E61F36B7BC007479EB /* How_Old_Are_You_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BBD3E81F36B7BC007479EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BBD3F11F36B7BC007479EB /* How_Old_Are_You_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29BBD3E31F36B7BC007479EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29BBD3CC1F36B7BC007479EB /* How Old Are You App */;
+			targetProxy = 29BBD3E21F36B7BC007479EB /* PBXContainerItemProxy */;
+		};
+		29BBD3EE1F36B7BC007479EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29BBD3CC1F36B7BC007479EB /* How Old Are You App */;
+			targetProxy = 29BBD3ED1F36B7BC007479EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29BBD3D41F36B7BC007479EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29BBD3D51F36B7BC007479EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29BBD3D91F36B7BC007479EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29BBD3DA1F36B7BC007479EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29BBD3F31F36B7BC007479EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29BBD3F41F36B7BC007479EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29BBD3F61F36B7BC007479EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "How Old Are You App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.How-Old-Are-You-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29BBD3F71F36B7BC007479EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "How Old Are You App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.How-Old-Are-You-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29BBD3F91F36B7BC007479EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "How Old Are You AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.How-Old-Are-You-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/How Old Are You App.app/How Old Are You App";
+			};
+			name = Debug;
+		};
+		29BBD3FA1F36B7BC007479EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "How Old Are You AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.How-Old-Are-You-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/How Old Are You App.app/How Old Are You App";
+			};
+			name = Release;
+		};
+		29BBD3FC1F36B7BC007479EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "How Old Are You AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.How-Old-Are-You-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "How Old Are You App";
+			};
+			name = Debug;
+		};
+		29BBD3FD1F36B7BC007479EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "How Old Are You AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.How-Old-Are-You-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "How Old Are You App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29BBD3C81F36B7BC007479EB /* Build configuration list for PBXProject "How Old Are You App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BBD3F31F36B7BC007479EB /* Debug */,
+				29BBD3F41F36B7BC007479EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29BBD3F51F36B7BC007479EB /* Build configuration list for PBXNativeTarget "How Old Are You App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BBD3F61F36B7BC007479EB /* Debug */,
+				29BBD3F71F36B7BC007479EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29BBD3F81F36B7BC007479EB /* Build configuration list for PBXNativeTarget "How Old Are You AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BBD3F91F36B7BC007479EB /* Debug */,
+				29BBD3FA1F36B7BC007479EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29BBD3FB1F36B7BC007479EB /* Build configuration list for PBXNativeTarget "How Old Are You AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BBD3FC1F36B7BC007479EB /* Debug */,
+				29BBD3FD1F36B7BC007479EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29BBD3C51F36B7BC007479EB /* Project object */;
+}
