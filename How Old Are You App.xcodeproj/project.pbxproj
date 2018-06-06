@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290C16921F37B86500429B70 /* aging-population.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 290C16911F37B7DA00429B70 /* aging-population.jpeg */; };
 		29BBD3D11F36B7BC007479EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBD3D01F36B7BC007479EB /* AppDelegate.swift */; };
 		29BBD3D31F36B7BC007479EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBD3D21F36B7BC007479EB /* ViewController.swift */; };
 		29BBD3D61F36B7BC007479EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BBD3D41F36B7BC007479EB /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		290C16911F37B7DA00429B70 /* aging-population.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "aging-population.jpeg"; sourceTree = "<group>"; };
 		29BBD3CD1F36B7BC007479EB /* How Old Are You App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How Old Are You App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BBD3D01F36B7BC007479EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29BBD3D21F36B7BC007479EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		29BBD3EC1F36B7BC007479EB /* How Old Are You AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How Old Are You AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BBD3F01F36B7BC007479EB /* How_Old_Are_You_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_Old_Are_You_AppUITests.swift; sourceTree = "<group>"; };
 		29BBD3F21F36B7BC007479EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BBD3FE1F36C22A007479EB /* wolf_wikipedia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolf_wikipedia.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				29BBD3D71F36B7BC007479EB /* Assets.xcassets */,
 				29BBD3D91F36B7BC007479EB /* LaunchScreen.storyboard */,
 				29BBD3DC1F36B7BC007479EB /* Info.plist */,
+				29BBD3FE1F36C22A007479EB /* wolf_wikipedia.jpg */,
+				290C16911F37B7DA00429B70 /* aging-population.jpeg */,
 			);
 			path = "How Old Are You App";
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 				29BBD3DB1F36B7BC007479EB /* LaunchScreen.storyboard in Resources */,
 				29BBD3D81F36B7BC007479EB /* Assets.xcassets in Resources */,
 				29BBD3D61F36B7BC007479EB /* Main.storyboard in Resources */,
+				290C16921F37B86500429B70 /* aging-population.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "How Old Are You App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.How-Old-Are-You-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.Age-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,7 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "How Old Are You App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.How-Old-Are-You-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertjacksonjr.Age-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
